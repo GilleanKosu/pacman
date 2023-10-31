@@ -22,6 +22,7 @@
     {"name":"spr_left_packman","order":1,"path":"sprites/spr_left_packman/spr_left_packman.yy",},
     {"name":"spr_down_packman","order":3,"path":"sprites/spr_down_packman/spr_down_packman.yy",},
     {"name":"spr_death_packman","order":7,"path":"sprites/spr_death_packman/spr_death_packman.yy",},
+    {"name":"obj_enemy","order":2,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"spr_pared","order":16,"path":"sprites/spr_pared/spr_pared.yy",},
     {"name":"spr_enemy","order":4,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_tileset","order":8,"path":"sprites/spr_tileset/spr_tileset.yy",},

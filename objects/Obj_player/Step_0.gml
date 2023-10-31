@@ -2,31 +2,31 @@
 
 // Movimientos del personaje
 
-if keyboard_check(vk_right) { //Hacia la derecha
+if keyboard_check(vk_right) && place_free(x+1,y) && place_snapped(32,32){ //Hacia la derecha y hay un espacio libre
 	direction = 0;
-	speed=v;
+	speed=velocidad;
 }
 
-if keyboard_check(vk_left) { //Hacia la izquierda
+if keyboard_check(vk_left) && place_free(x-1,y) && place_snapped(32,32){ //Hacia la izquierda
 	direction = 180;
-	speed=v;
+	speed=velocidad;
 }
 
-if keyboard_check(vk_up) { //Hacia arriba
+if keyboard_check(vk_up) && place_free(x,y-1) && place_snapped(32,32) { //Hacia arriba
 	direction = 90;
-	speed=v;
+	speed=velocidad;
 }
-if keyboard_check(vk_down) { //Hacia abajo
+if keyboard_check(vk_down) && place_free(x,y+1) && place_snapped(32,32){ //Hacia abajo
 	direction = 270;
-	speed=v;
+	speed=velocidad;
 }
 
 //Verificar direccion y velocidad para cambiar el sprite
 if (speed>0){
-image_speed=1;
+	image_speed=1;
 } else {
-image_speed=0
-image_index=0;
+	image_speed=0
+	image_index=0;
 }
 
 //Cambio del sprite segun la direccion en la que se mueva el objeto

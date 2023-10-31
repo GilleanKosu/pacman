@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_pared","path":"objects/obj_pared/obj_pared.yy",},},
@@ -40,12 +40,13 @@
     {"id":{"name":"spr_left_packman","path":"sprites/spr_left_packman/spr_left_packman.yy",},},
     {"id":{"name":"spr_down_packman","path":"sprites/spr_down_packman/spr_down_packman.yy",},},
     {"id":{"name":"spr_death_packman","path":"sprites/spr_death_packman/spr_death_packman.yy",},},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"spr_pared","path":"sprites/spr_pared/spr_pared.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_up_packman","path":"sprites/spr_up_packman/spr_up_packman.yy",},},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},},
-    {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
