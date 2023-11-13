@@ -1,4 +1,5 @@
 /// @description Configuracion del enemigo
+randomize();
 sprite_index = spr_enemy;
 image_speed = 0;
 

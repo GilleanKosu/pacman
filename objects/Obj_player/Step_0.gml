@@ -1,6 +1,6 @@
 /// @description Movimientos & Sprite etc
 
-if (global.Golpe) exit;//Si el enemigo te golpea sale de este evento completo
+if (global.Golpe) || audio_is_playing(snd_intro) exit;//Si el enemigo te golpea sale de este evento completo
 
 // Movimientos del personaje
 

@@ -1,5 +1,19 @@
 /// @description Inteligencia artificial
 
+//Reinciar enemigo cuando el jugador pierda una vida
+if (global.Golpe) {
+speed=0;
+hspeed = 0;
+vspeed = 0;
+visible=false;
+
+x = xstart;
+y = ystart;
+exit;
+} else {
+	visible=true;
+}
+
 //Actuar de manera aleatoria
 if place_snapped(64, 64) {
     if hspeed == 0 {//movimiento vertical
@@ -38,4 +52,6 @@ if place_snapped(64, 64) {
         }
     }
 }
+
+
 

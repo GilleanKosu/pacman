@@ -20,13 +20,13 @@
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1fb188fb-741b-40c1-8543-5dc9968f1c40","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1fb188fb-741b-40c1-8543-5dc9968f1c40","blendMode":0,"displayName":"default","isLocked":false,"opacity":40.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "PacMan",
-    "path": "PacMan.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

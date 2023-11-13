@@ -8,6 +8,10 @@ if (sprite_index == spr_player_dead) {
 	image_index = 0;
 	
 	global.Golpe = false;
+	
+	//Iniciar de nuevo
+	audio_play_sound(snd_intro, 10, false);
+	instance_deactivate_object(obj_enemy);
 }
 
 
